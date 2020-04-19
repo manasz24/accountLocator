@@ -1,0 +1,7 @@
+<aura:event type="APPLICATION" description="Event template">
+    <aura:attribute name="accounts" type="Account[]"/>
+</aura:event>
+
+
+
+

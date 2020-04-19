@@ -1,0 +1,28 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+    <lightning:layout horizontalAlign="space" multipleRows="true">
+        <lightning:layoutItem size="12"
+                              mediumDeviceSize="12"
+                              padding="around-small">
+            <div class="slds-box slds-theme_default">
+                Account Search goes here
+                <c:AccountSearch/>
+            </div>
+        </lightning:layoutItem>
+        <lightning:layoutItem size="12"
+                              mediumDeviceSize="6"
+                              padding="around-small">
+            <div class="slds-box slds-theme_default">
+                Account List goes here
+                <c:AccountList/>
+            </div>
+        </lightning:layoutItem>
+        <lightning:layoutItem size="12"
+                              mediumDeviceSize="6"
+                              padding="around-small">
+            <div class="slds-box slds-theme_default">
+                Account Map goes here
+                <c:AccountMap/>
+            </div>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>
